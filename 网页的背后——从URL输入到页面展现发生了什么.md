@@ -10,7 +10,8 @@
 	    服务器处理就是根据IP地址找到负责此域名的服务器，服务器将根据其域名分配到相应的文件夹。
 4. 网站处理
 	重点是MVC流程，即模型(model)-视图(view)-控制器(controller)，控制器从模型处得到数据库中对应的数据，并将数据填入视图，得到html文件。
-	    附图：![](http://upload-images.jianshu.io/upload_images/5353790-da4256d695f14f47.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+	    
+	附图：![](http://upload-images.jianshu.io/upload_images/5353790-da4256d695f14f47.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 5. 浏览器处理
 	- HTML字符串被浏览器接受后被一句句读取解析
 	- 解析到link 标签后重新发送请求获取css
