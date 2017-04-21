@@ -5,7 +5,7 @@
   - elem.children会得到一个由elem的子元素节点组成的数组
   - elem.children会得到一个由elem的子元素节点以及子文本节点组成的数组  
 3. 查询元素有几种常见的方法？ES5的元素选择方法是什么?
-  - 有getElementById()、getElementByClassName()、getElementTagName()、getElementByName()这几种常用的方法，通过ID名、类名、标签类型、Name值来查询元素
+  - 有getElementById()、getElementsByClassName()、getElementsTagName()、getElementsByName()这几种常用的方法，通过ID名、类名、标签类型、Name值来查询元素
   - ES5开始新增了querySelector()、querySelectorAll()这样的方法，通过提供选择器的值来查询元素
 4. 如何创建一个元素？如何给元素设置属性？如何删除属性
   - 使用createElement()创建一个元素
@@ -34,5 +34,5 @@
 </div>
 
 a = getElementByTagName(li);
-b = getElementByClassName(btn)[0]
+b = getElementsByClassName(btn)[0]
 ```
