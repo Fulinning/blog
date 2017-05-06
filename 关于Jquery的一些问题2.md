@@ -1,5 +1,5 @@
 1. jQuery 中， $(document).ready()是什么意思？
-  - $(document).ready()的作用于原生JS中window.onload意义相同，无论这行语句出现在哪里，被标记的函数会在网页完全加载完成后才执行。
+  - $(document).ready()的作用是无论这行语句出现在哪里，被标记的函数会在网页完全加载完成后才执行。
   - 这个执行时机其实不算特别恰当，因为当网页图片很多时，函数也会等到所有图片加载完毕后再执行
 2. $node.html()和$node.text()的区别?
   - $node.html()是获取节点内部的html语句，如节点为```<div><p>sss</p></div>```，对div使用html()得到的是```<p>sss</p>```
