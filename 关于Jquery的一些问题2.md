@@ -11,6 +11,7 @@
 4. jQuery 的链式调用是什么？
 
 jQuery的链式调用是指对一个对象连续的使用jQuery方法。提高代码可读性
+
 5. jQuery 中 data 函数的作用
   - data函数可以将数据保存在某个节点内，方便存储和调用，语法为$node.data(key,value)或者$.data(note,key,value)，note为节点，key为名称，key的类型是字符串，value为值，类型可以是任意值。
 6. 写出以下功能对应的 jQuery 方法：
